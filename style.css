@@ -1,0 +1,159 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 4, 30, 0.685), rgba(0, 4, 1, 0.685)) ,  url("img/hero.jpg");
+    background-size: cover;
+}
+
+.navbarContainer{
+    width: 95% !important;
+    margin-top: 1rem;
+}
+
+.nav-link{
+    color: white;
+}
+
+
+.collapse-menu2 li a{
+    color: #fff;
+    text-decoration: none;
+}
+.collapse-menu2 ul{
+    list-style: none;
+}
+.collapse-menu2 li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+.collapse{
+    flex-direction: column;
+    align-items: flex-end;
+}
+.teamTitle{
+    padding: 5rem 0;
+}
+.leftmenu ul li{
+    margin-top: .5rem;
+}
+.leftmenu ul{
+    list-style: none;
+}
+.leftmenu ul li a{
+    color:rgb(161,161,166);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.35s;
+}
+.leftmenu ul li:first-child a{
+    color:rgb(178,0,51) ;
+}
+.leftmenu ul li a:hover{
+    color:rgb(178,0,51);
+}
+.detayliarama{
+    color:rgb(178,0,51);
+}
+
+.search input, select{
+width: 100%;
+height: 2.5rem;
+margin-top: 1rem;
+border: none;
+border-bottom:solid 1px rgb(161,161,166);
+}
+.searchbtn{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(44, 44, 50);
+    padding: .3rem .7rem;
+}
+.searchbtn:hover{
+    background-color: rgb(43, 41, 54);
+    color: white;
+}
+.alfabe span a{
+    text-decoration: none;
+    color: black;
+    margin-right: .2rem;
+}
+.alfh{
+    color:rgb(178,0,51);
+}
+.teamcard img{
+    filter: grayscale(1);
+}
+
+
+
+.footer{
+    padding: 3rem;
+    background-color: rgb(5, 4, 17);
+    color: #fff;
+}
+.footerConteiner{
+    width: 75% !important; 
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    padding-top: .5rem;
+    font-size: 12px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn{
+    max-width: fit-content;
+}
+.form-control{
+    border-radius: 0;
+    background-color: rgb(5, 4, 17);
+    color: #fff;
+}
+.btn .btn-danger {
+    border-radius: 0;
+    background-color: rgb(5, 4, 17);
+    border-color: #fff;
+}
+.btn-danger:hover{
+    background-color:  white;
+    color: rgb(5, 4, 17);
+}
+
+.footersocial{
+    margin-top: 1rem;
+display: flex;
+justify-content: space-between;
+}
+.bi{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:930px) {
+    .main{
+    text-align: center !important;
+    }
+    .footer{
+        text-align: center;
+    }
+}

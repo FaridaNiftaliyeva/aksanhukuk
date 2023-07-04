@@ -1,0 +1,135 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    width: 100%;
+    background-image: linear-gradient(rgba(23, 23, 26, 0.85), rgba(0, 9, 40, 0.850)) ,  url("img/saat.png");
+    background-size: cover;
+    height: 450px;
+}
+
+.navbarContainer{
+    width: 95% !important;
+    margin-top: 1rem;
+}
+
+.nav-link{
+    color: white;
+}
+
+
+.collapse-menu2 li a{
+    color: #fff;
+    text-decoration: none;
+}
+.collapse-menu2 ul{
+    list-style: none;
+}
+.collapse-menu2 li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+.collapse{
+    flex-direction: column;
+    align-items: flex-end;
+}
+.teamTitle{
+    padding: 5rem 0;
+}
+
+.sectionConteiner{
+    width: 50%;
+}
+.istcard{
+    background-image: linear-gradient(rgba(9, 12, 27, 0.7), rgba(9, 12, 27, 0.7)) , url(img/istanbul.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    min-width: 50% !important;
+}
+.tecnocard{
+    background-image: linear-gradient(rgba(9, 12, 27, 0.7), rgba(9, 12, 27, 0.7)) , url(img/teknopark.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    min-width: 50% !important;
+}
+.lookbtn{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(181,181,193);
+    padding: .3rem .5rem;
+    color: rgb(181,181,193);
+}
+
+.lookbtn:hover{
+    background-color: rgb(35, 37, 68);
+    color: white;
+}
+
+
+
+
+.footer{
+    padding: 3rem;
+    background-color: rgb(5, 4, 17);
+    color: #fff;
+}
+.footerConteiner{
+    width: 75% !important; 
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li{
+    padding-top: .5rem;
+    font-size: 12px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn{
+    max-width: fit-content;
+}
+.form-control{
+    border-radius: 0;
+    background-color: rgb(5, 4, 17);
+    color: #fff;
+}
+.btn .btn-danger {
+    border-radius: 0;
+    background-color: rgb(5, 4, 17);
+    border-color: #fff;
+}
+.btn-danger:hover{
+    background-color:  white;
+    color: rgb(5, 4, 17);
+}
+
+.footersocial{
+    margin-top: 1rem;
+display: flex;
+justify-content: space-between;
+}
+.bi{
+    color: white;
+}
+
+@media screen and (max-width:930px) {
+    .main{
+    text-align: center !important;
+    }
+    .footer{
+        text-align: center;
+    }
+}
